@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Hero from '$components/app/index/Hero.svelte';
+</script>
+
+<svelte:head>
+	<title>SE Tools</title>
+</svelte:head>
+<body class="grid grid-rows-6 max-h-screen">
+	<Hero />
+</body>
