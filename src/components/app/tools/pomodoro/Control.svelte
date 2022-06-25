@@ -1,11 +1,8 @@
-<script lang="ts" context="module">
-	import { writable } from 'svelte/store';
-
+<script lang="ts">
 	import { RunState } from '$enums/pomodoro';
+	import { runState } from '../../../../stores/pomodoro/stores';
 	import StartBtn from './ControlButtons/StartBtn.svelte';
 	import StopBtn from './ControlButtons/StopBtn.svelte';
-
-	export let runState = writable(RunState.Stopped);
 </script>
 
 <section id="clock-controller" class="w-3/5 px-5">
