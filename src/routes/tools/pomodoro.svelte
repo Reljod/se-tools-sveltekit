@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Clock from '$components/app/tools/pomodoro/Clock.svelte';
-	import Control, { runState } from '$components/app/tools/pomodoro/Control.svelte';
+	import Control from '$components/app/tools/pomodoro/Control.svelte';
 	import { ClockState } from '$enums/pomodoro';
+	import { runState } from '../../stores/pomodoro/stores';
 
 	let clockState: ClockState = ClockState.MainState;
 </script>

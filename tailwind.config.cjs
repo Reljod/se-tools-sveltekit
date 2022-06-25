@@ -6,7 +6,7 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: colors.white,
-        heading1: '#1eeb77',
+				heading1: '#1eeb77',
 				bgprimary: colors.black,
 				default_button: '#1eeb77'
 			}
